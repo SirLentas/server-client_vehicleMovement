@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dom-2.3.0-jaxb-1.0.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/dom-2.3.0-jaxb-1.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

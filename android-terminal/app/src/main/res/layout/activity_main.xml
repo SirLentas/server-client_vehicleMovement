@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="40dp">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="@string/ip_address"
+            android:selectAllOnFocus="true"
+            android:inputType="text"
+            android:autofillHints="192.168.1.1" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText1"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/port_for_connection"
+            android:autofillHints="3000"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="@string/time_of_emulation"
+            android:autofillHints="30"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText3"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="@string/id"
+            android:autofillHints="30"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/browsebtn"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText4"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/attach_file"
+            android:textColor="#FFF"
+            android:background="@drawable/rounded_corners"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/browsebtn"
+            android:layout_marginTop="10dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/start"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textfile"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/start"
+            android:textColor="#FFF"
+            android:background="@drawable/rounded_corners"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/start"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/red_rounded"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/exit"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+    </RelativeLayout>
+</ScrollView>

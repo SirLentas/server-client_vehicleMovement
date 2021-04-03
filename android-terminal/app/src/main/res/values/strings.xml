@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">android-terminal</string>
+    <string name="exit">Exit</string>
+    <string name="start">Start</string>
+    <string name="time_of_emulation">Time of emulation (ex. 10.0)</string>
+    <string name="port_for_connection">Port for connection</string>
+    <string name="ip_address">IP address for connection</string>
+    <string name="id">ID</string>
+    <string name="stop">Stop</string>
+    <string name="back">Back</string>
+    <string name="attach_file">Attach CSV File</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="show_real_route">Show Real Route</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="show_estimated_route">Show Estimated Route</string>
+</resources>
